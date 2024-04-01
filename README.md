@@ -82,7 +82,7 @@ ret
 ![8086_div](https://github.com/Yuvadarshini-Sathiyamoorthy/EXPERIMENT--01-ALP-FOR-8086/assets/93482485/50468785-ea09-4337-961a-0b3e2389c647)
 
 ## Program for logical  operations
-
+```
 org 100H  
 
 MOV SI,0532H;
@@ -118,7 +118,7 @@ NOT AX;
 MOV [SI+6],AX;
 
 ret 
-
+```
 ### Output:
 ![8086_div](https://github.com/amal-2006/EXPERIMENT--01-ALP-FOR-8086/assets/148410730/69b341bd-d8c5-4911-bfac-829daa209c65)
 
