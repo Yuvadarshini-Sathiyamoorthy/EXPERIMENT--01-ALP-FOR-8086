@@ -1,9 +1,9 @@
-# EXPERIMENT--01-ALP-FOR-8086
 ```
 ### Name : Yuvadarshini S
 ### Roll no : 212221230126
 ### Date of experiment : 19.02.2024
 ```
+# EXPERIMENT--01-ALP-FOR-8086
 
 ## Aim: 
 To Write and execute ALP on fundamental arithmetic and logical operations
@@ -81,6 +81,46 @@ ret
 ## Output  
 ![8086_div](https://github.com/Yuvadarshini-Sathiyamoorthy/EXPERIMENT--01-ALP-FOR-8086/assets/93482485/50468785-ea09-4337-961a-0b3e2389c647)
 
+## Program for logical  operations
+
+org 100H  
+
+MOV SI,0532H;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+OR AX,BX;
+
+MOV [SI],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+AND AX,BX; 
+
+MOV [SI+2],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H; 
+
+XOR AX,BX;    
+
+MOV [SI+4],AX;
+
+MOV AX,0A32H;
+
+NOT AX; 
+
+MOV [SI+6],AX;
+
+ret 
+
+### Output:
+![8086_div](https://github.com/amal-2006/EXPERIMENT--01-ALP-FOR-8086/assets/148410730/69b341bd-d8c5-4911-bfac-829daa209c65)
 
 ## Result :
 Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
