@@ -1,7 +1,6 @@
 ```
-### Name : Yuvadarshini S
-### Roll no : 212221230126
-### Date of experiment : 19.02.2024
+Name : Yuvadarshini S
+Roll no : 212221230126
 ```
 # EXPERIMENT 01: ALP FOR 8086
 
